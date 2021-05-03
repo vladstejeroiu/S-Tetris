@@ -58,15 +58,14 @@ public class GameController :
     }
 
     public static void SaveData() {
-		
         PlayerPrefs.SetString("tetris-save", JsonUtility.ToJson(saveData));
     }
 
     public static SaveData LoadData() {
         SaveData saveData = JsonUtility.FromJson<SaveData>(
             PlayerPrefs.GetString("tetris-save", "")
-        );
-
-        return saveData == null ? new SaveData() : saveData;
+        
+		);
+	return saveData == null ? new SaveData() : saveData;
     }
 }

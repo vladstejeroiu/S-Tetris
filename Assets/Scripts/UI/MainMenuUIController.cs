@@ -32,19 +32,7 @@ public class MainMenuUIController :
         startLevelSlider.value = value;
     }
 
-    public void ToggleSound() {
-        GameController.saveData.isMuted = !GameController.saveData.isMuted;
-        GameController.SaveData();
-        UpdateSound();
-    }
-
-    public static void UpdateSound() {
-        instance.soundButton.text = "SOUND: " + (
-            !GameController.saveData.isMuted ? "ON" : "OFF"
-        );
-
-        SoundController.musicMuted = GameController.saveData.isMuted;
-        SoundController.soundMuted = GameController.saveData.isMuted;
+ 
     }
 
     public static void UpdateHUD() {
