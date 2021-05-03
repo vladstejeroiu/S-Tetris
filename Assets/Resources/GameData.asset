@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447a440c2e56f2e4fb2edf666eb5925a, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  audioClipInfos:
+  - name: BGM
+    clip: {fileID: 8300000, guid: 590e04232a2f25b42b08a6a59505503f, type: 3}
+  - name: Land
+    clip: {fileID: 8300000, guid: 18073e1132290d5498d1ee585be6ed38, type: 3}
+  - name: Clear
+    clip: {fileID: 8300000, guid: ea09c85936647704687bbf793842b420, type: 3}
+  - name: Top out
+    clip: {fileID: 8300000, guid: 0568d1ab365c1eb45936e5e2213badda, type: 3}
+  - name: Level Up
+    clip: {fileID: 8300000, guid: 23d2a622688594041bef373949a6ca7e, type: 3}
+  gravityForLevel:
+  - 0.01667
+  - 0.021017
+  - 0.026977
+  - 0.035256
+  - 0.04693
+  - 0.06361
+  - 0.0879
+  - 0.1236
+  - 0.1775
+  - 0.2598
+  - 0.388
+  - 0.59
+  - 0.92
+  - 1.46
+  - 2.36
+  - 3.91
+  - 6.61
+  - 11.43
+  - 20
