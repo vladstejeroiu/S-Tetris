@@ -1,10 +1,10 @@
-Tetris 
+# Tetris 
 
-Used C# and the Unity engine.
+## Used C# and the Unity engine.
 
-In my implementation, I chose to try to follow the specifications of [Tetris Guideline](https://tetris.wiki/Tetris_Guideline).
+## In my implementation, I chose to try to follow the specifications of [Tetris Guideline](https://tetris.wiki/Tetris_Guideline).
 
-The implemented features are:
+## The implemented features are:
 
 - Main Menu
 - Rotate piece
